@@ -13,3 +13,8 @@ dist/
 .env.staging
 apps/web/out/
 apps/worker/dist/
+
+# 実 account_id / database_id を含むローカル専用設定（公開リポにpushしない）
+*.toml.real
+*.real.toml
+wrangler.toml.real
